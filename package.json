@@ -1,0 +1,32 @@
+{
+  "name": "svg-material-design-icons",
+  "version": "1.0.0",
+  "description": "svg and fonts of material-design on a diet. ",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node node_modules/gulp/bin/gulp svg-sprites"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LPCmedia/svg-material-design-icons.git"
+  },
+  "keywords": [
+    "Material",
+    "design",
+    "icons",
+    "material",
+    "design",
+    "svg"
+  ],
+  "author": "LPCmedia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LPCmedia/svg-material-design-icons/issues"
+  },
+  "homepage": "https://github.com/LPCmedia/svg-material-design-icons",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-replace": "0.5.4",
+    "material-design-icons": "3.0.1"
+  }
+}
