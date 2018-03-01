@@ -4,7 +4,8 @@
   "description": "svg and fonts of material-design on a diet. ",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node node_modules/gulp/bin/gulp svg-sprites"
+    "prepublish": "node node_modules/gulp/bin/gulp svg-sprites",
+    "sprites": "node node_modules/gulp/bin/gulp svg-sprites"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,9 @@
   "devDependencies": {
     "gulp": "3.9.1",
     "gulp-replace": "0.5.4",
-    "material-design-icons": "3.0.1"
+    "gulp-svg-sprite": "^1.3.7",
+    "lodash": "^4.17.5",
+    "material-design-icons": "git://github.com/google/material-design-icons.git",
+    "merge-stream": "^1.0.1"
   }
 }
