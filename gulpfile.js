@@ -36,6 +36,13 @@ gulp.task('svg-sprites', () =>
         }))
         .pipe(gulp.dest('./dist')));
 
+gulp.task('copy-package', () => {
+    return gulp.src([
+        'package.json'
+    ])
+        .pipe(gulp.dest('dist'));
+})
+
 function getSvgSpriteConfig(category) {
     return {
         shape: {
