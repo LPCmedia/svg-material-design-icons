@@ -1,3 +1,5 @@
 .vscode
 node_modules
 dist/*.svg
+**/.DS_Store
+npm-debug.log
