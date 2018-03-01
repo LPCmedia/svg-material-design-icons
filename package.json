@@ -1,6 +1,6 @@
 {
   "name": "svg-material-design-icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "svg and fonts of material-design on a diet. ",
   "main": "index.js",
   "scripts": {
